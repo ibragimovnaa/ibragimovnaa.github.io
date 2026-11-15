@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>Amina | Student Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Amina, home">
+      <img class="profile-photo" src="photo.jpg" alt="Amina's profile photo">
+      <span class="brand-name">Amina</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" type="button"
+      aria-label="Open navigation menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="mainNav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#projects">Projects</a>
+      <a href="#network">Network Detective</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-button" id="themeBtn" type="button">Dark mode</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">STUDENT PROFILE</p>
+        <h1>Hi, I'm <span>Amina.</span></h1>
+        <h2>First-year IT student at INHA University</h2>
+        <p class="intro">
+          I'm interested in technology, programming, and learning new things.
+          I'm currently building my skills and exploring the world of IT.
+        </p>
+        <a class="primary-link" href="#projects">Explore my projects</a>
+      </div>
+      <div class="hero-art" aria-label="IT student illustration">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="laptop">
+          <div class="laptop-screen">
+            <span class="screen-dot"></span>
+            <span class="screen-line"></span>
+            <span class="screen-line short"></span>
+            <span class="screen-code">&lt;hello /&gt;</span>
+          </div>
+          <div class="laptop-base"></div>
+        </div>
+        <p class="art-caption">LEARN · BUILD · GROW</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Curious by nature, learning every day.</h2>
+      <p class="section-copy">
+        I'm a university student interested in how technology works and how
+        simple ideas can become useful projects. This page is my small corner
+        of the internet.
+      </p>
+    </section>
+
+    <section class="section" id="courses">
+      <p class="eyebrow">WHAT I'M STUDYING</p>
+      <h2>My courses</h2>
+      <div class="card-grid">
+        <article class="info-card">
+          <span class="card-number">01</span>
+          <h3>Introduction to IT</h3>
+          <p>Learning computer science and programming basics.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>Calculus</h3>
+          <p>Studying functions, limits, and derivatives.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>English</h3>
+          <p>Practising academic reading and communication.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">WHAT I'M MAKING</p>
+      <h2>My projects</h2>
+      <article class="project-card">
+        <div>
+          <span class="project-tag">FIRST WEB PROJECT</span>
+          <h3>Personal Homepage</h3>
+          <p>A personal website made with HTML, CSS, and JavaScript.</p>
+        </div>
+        <span class="project-symbol">&lt;/&gt;</span>
+      </article>
+    </section>
+
+    <section class="section" id="network">
+      <p class="eyebrow">A LITTLE NETWORK INVESTIGATION</p>
+      <h2>Network detective</h2>
+      <p class="section-copy">
+        A quick look at the network behind this connection. Sensitive network
+        identifiers are deliberately kept off this page.
+      </p>
+      <div class="network-grid">
+        <article class="info-card network-card">
+          <span class="card-number">01 · INTERNET PROVIDER</span>
+          <h3 id="ispName" aria-live="polite">Checking connection…</h3>
+          <p id="asnName">ISP / ASN information will appear here.</p>
+        </article>
+        <article class="info-card network-card">
+          <span class="card-number">02 · ROUTER</span>
+          <h3>Not detectable in browser</h3>
+          <p>A browser webpage cannot reliably identify your router's manufacturer.</p>
+        </article>
+        <article class="info-card network-card">
+          <span class="card-number">03 · ROUTE TO INHA.UZ</span>
+          <h3>Hop count unavailable</h3>
+          <p>Measuring network hops requires a traceroute from a network diagnostic tool.</p>
+        </article>
+      </div>
+      <p class="small-note privacy-note">
+        Privacy note: this page does not display or store your IP address or MAC address.
+      </p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">SAY HELLO</p>
+      <h2>Contact</h2>
+      <p>Location: Tashkent, Uzbekistan</p>
+      <p>Email: <a href="mailto:abdukhakimovaaa17@gmail.com">abdukhakimovaaa17@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>© 2026 Amina · Personal Homepage</footer>
+  <script src="script.js"></script>
+</body>
+</html>
